@@ -31,8 +31,8 @@ local function createLoader(...)
 	return function(modules)
 		for _, module in pairs(modules) do
 			coroutine.wrap(_load)(module, args)
-        end
-    end
+		end
+	end
 end
 
 return createLoader

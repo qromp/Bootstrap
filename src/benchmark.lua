@@ -17,7 +17,7 @@
 local function benchmark(callback)
 	local startTime = tick()
 	callback()
-	return (tick()-startTime)*1000
+	return (tick() - startTime) * 1000
 end
 
 return benchmark
