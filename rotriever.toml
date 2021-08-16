@@ -1,4 +1,4 @@
-name = "Bootstrap"
+name = "vocksel/bootstrap"
 author = "David Minnerly"
-content_root = "lin"
+content_root = "src"
 version = "0.1.0"

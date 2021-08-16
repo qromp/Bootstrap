@@ -1,6 +1,6 @@
 {
     "name": "Bootstrap",
     "tree": {
-        "$path": "lib/"
+        "$path": "src/"
     }
 }
